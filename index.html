@@ -7,18 +7,18 @@
 </head>
 <body>
     <div id="header">
-        <input type="text">
-        <button>Search</button>
+        <input type="text" placeholder="Search Location">
+        <img id="search" src="">
     </div>
     <div id="content">
         <div id="weather-card" class="hidden">
-            <h2 class="location"></h2>
-            <h2 class="region"></h2>
-            <h2 class="country"></h2>
+            <h2 class="current-condition"></h2>
+            <h1 class="location"></h2>
             <h3 class="date-and-time"></h3>
             <h1 class="temp-c"></h1>
-            <h1 class="temp-f"></h1>
-            <h2 class="humidity"></h2>
+            <h1 class="temp-f hidden"></h1>
+            <h3 class="humidity"></h2>
+            <img id="weather-icon" src="">
         </div>
     </div>
     <script src="./bundle.js"></script>
